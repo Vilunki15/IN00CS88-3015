@@ -1,0 +1,40 @@
+# Qt Creator
+build/
+*.pro.user*
+*.pro.user
+*.pro.user.*    # Qt Creator user settings
+*.qmake.stash
+*.qmake.cache
+*.moc
+*.moc.cpp
+*.qmlc
+*.qrc.cpp
+
+# GCC / Make / Debug / Release
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.exe
+*.out
+Makefile
+*.qtc_clangd/
+
+# Qt Creator IDE settings
+*.creator
+*.creator.user
+*.user
+*.user.* 
+*.layout
+
+# Mac OS X
+.DS_Store
+
+# Linux
+*~
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
